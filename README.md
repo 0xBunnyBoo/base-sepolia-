@@ -13,3 +13,21 @@ curl --request POST \
     }
   ]
 }'
+{
+  "send_receipts": [
+    {
+      "fid": 3,
+      "amount": 123,
+      "status": "sent",
+      "reason": "<string>"
+    }
+  ],
+  "transactions": [
+    {
+      "network": "base",
+      "transaction_hash": "<string>",
+      "gas_used": "<string>",
+      "approval_hash": "<string>"
+    }
+  ]
+}
